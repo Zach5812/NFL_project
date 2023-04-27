@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    background-image: url("NFL.jpg");
+}
+
+nav{
+    color: white;
+}
+
+.container{
+    margin-top: 30px;
+    padding-top: 20px;
+    display: flex;
+    height: 300px;
+    width: 1500px;
+    background-color: blue;
+}
+
+.rules{
+    width: 450px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    margin: 0 auto;
+    width: 600px;
+}
+
+nav h1{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+.functions{
+    width: 450px;
+}
+
+.one{
+    height: 40%;
+    margin: 0 auto;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#search{
+    width: inherit;
+}
+
+
+/* player.html */
+
+.player_stats{
+    width: 90%;
+    margin: 0 auto;
+    height: inherit;
+    background-color: blue;
+}
+
+.table{
+    color: white;
+}
+
+.home2{
+    position: sticky;
+    top: 50px;
+    left: 1220px;
+}
+
+
+/* players.html */
+
+.compare{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+.stat{
+    display: flex;
+    width: 1200px;
+}
+
+.compare .table-responsive{
+    width: 550px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home{
+    position: sticky;
+    top: 10px;
+}
+
+.error{
+    height: 100px;
+    background-color: blue;
+}
+
+
